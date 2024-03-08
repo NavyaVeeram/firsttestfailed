@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .col-sm-3{
+            color:white;
+            height:100vh;
+            border:5px solid white;
+        }
+        .col-sm-6{
+            height:100vh;
+            border:5px solid white;
+        }
+        .box1{
+            color:white;
+            width:100%;
+            height:200px;
+            box-sizing: border-box;
+            border-bottom:5px solid white;
+        }
+        .box2{
+         color:white;
+         width:100%;
+         height:200px;
+         box-sizing: border-box;
+         border-bottom:5px solid white;
+     }
+     .box3{
+        color:white;
+         width:100%;
+         height:200px;
+         box-sizing: border-box;
+
+     }
+     .col-1 {width: 8.33%;}
+.col-sm-3 {width: 16.66%;}
+
+
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  [class*="col-sm-3"] {
+    width: 100%;
+    height:200px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-primary w-100">
+        <div class="row">
+            <div class="col-sm-3 p-2">
+box1
+            </div>
+            <div class="col-sm-6 p-2">
+           <div class="box1">
+            box2
+           </div>
+           <div class="box2">
+            box3
+           </div>
+           <div class="box3">
+            box4
+           </div>
+            </div>
+            <div class="col-sm-3 p-2">
+                box 5
+            </div>
+        </div>
+    </div>
+</body>
+</html>
